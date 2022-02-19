@@ -6,7 +6,7 @@
  * @param length The length of the dick. It preferably should not go over 8.
  * @return std::string 
  */
-std::string generateDick(int length)
+std::string generate_dick(int length)
 {
     std::string dick;
 
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    std::cout << generateDick(length) << "\n";
+    std::cout << generate_dick(length) << "\n";
 
     return 0;
 }
